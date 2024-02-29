@@ -1,0 +1,24 @@
+{
+    "name": "zavodsk0y/collect-packagist",
+    "description": "Module for working with arrays",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CollectPackagist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zavodsk0y",
+            "email": "zimniyvolk5@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "files": [
+        "src/helpers.php"
+    ]
+}
